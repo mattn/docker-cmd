@@ -1,6 +1,12 @@
 # docker command
 
-docker command which wrap boot2docker
+```
+C:\>boot2docker ssh -t run ls ...
+C:\>boot2docker ssh -t run cat ...
+...
+```
+
+It’s a pain. This is a command which wrap boot2docker
 
 ## Usage
 
