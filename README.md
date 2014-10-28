@@ -9,7 +9,7 @@ Same as docker command
 ## Installation
 
 ```
-$ go get github.com/mattn/docker/cmd/docker
+$ go get github.com/mattn/docker-cmd/docker
 ```
 
 ## License
