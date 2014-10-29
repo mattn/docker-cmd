@@ -21,7 +21,6 @@ func docker(args []string) {
 	f, err := os.Open("Dockerfile")
 	if err == nil {
 		cmd := exec.Command("boot2docker", "ssh", "tee", "Dockerfile")
-		cmd.Stdout = os.Stdout
 		cmd.Stdin = f
 		cmd.Stderr = os.Stderr
 		err := cmd.Run()
